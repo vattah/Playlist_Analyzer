@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block title %}
+Raw Data
+{% endblock %}
+{% block main %}
+<a href="/nav">Navigation</a>
+<text>|</text>
+<a href="/decade">Decades</a>
+<text>|</text>
+<a href="/minutes">Song Lengths</a>
+<text>|</text>
+<a href="/mode">Major vs Minor Key</a>
+<text>|</text>
+<a href="/dance">Danceability</a>
+<text>|</text>
+<a href="/aco">Acousticness</a>
+<text>|</text>
+<a href="/ene">Energy</a>
+<text>|</text>
+<a href="/liv">Liveness</a>
+<text>|</text>
+<a href="/tempo">Tempo</a>
+<text>|</text>
+<a href="/key">Key</a>
+<text>|</text>
+<a href="/val">Valence</a>
+<br><br>
+<h1>Raw Data</h1>
+<br>
+<body>
+   <div>
+      <!--https://kenneho.net/2021/07/11/plotly-without-dash/ -->
+      {{ raw | safe }}
+   </div>
+</body>
+{% endblock %}

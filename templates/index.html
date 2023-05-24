@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+<div class ="container">
+    <a>
+        <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png" alt="Spotify" width = "250">
+    </a>
+    <br><br><br>
+        <h1>Greetings, {{name}}</h1>
+    <form action="/nav" method="post">
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="link" name="link" placeholder="Playlist Link" type="link" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Analyze</button>
+    </form>
+
+{% endblock %}

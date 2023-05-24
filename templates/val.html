@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block title %}
+Valence
+{% endblock %}
+{% block main %}
+<html>
+   <head>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   </head>
+   <body>
+      <h1>Valence</h1>
+      <!-- https://kenneho.net/2021/07/11/plotly-without-dash/ -->
+      {% block content %}
+      {{v | safe}}
+      {% endblock %}
+      <text>Percentage of songs with valence (positiveness/happiness) in denoted ranges. This is a 0.0 (least) to 1.0 (most) measure of a song's positivity, according to Spotify.</text>
+   </body>
+   <hr>
+   <footer class="mb-5 small text-center text-muted">
+      <a href="/nav">Navigation</a>
+      <text>|</text>
+      <a href="/raw">Raw Data</a>
+      <text>|</text>
+      <a href="/decade">Decades</a>
+      <text>|</text>
+      <a href="/minutes">Song Lengths</a>
+      <text>|</text>
+      <a href="/mode">Major vs Minor Key</a>
+      <text>|</text>
+      <a href="/dance">Danceability</a>
+      <text>|</text>
+      <a href="/aco">Acousticness</a>
+      <text>|</text>
+      <a href="/ene">Energy</a>
+      <text>|</text>
+      <a href="/liv">Liveness</a>
+      <text>|</text>
+      <a href="/tempo">Tempo</a>
+      <text>|</text>
+      <a href="/key">Key</a>
+   </footer>
+   {% endblock %}
