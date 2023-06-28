@@ -67,11 +67,10 @@ Also, you must visit https://developer.spotify.com/dashboard, create an app, and
 
 # Using the site
 
+In order to run this website locally, I must add you as an approved user. Please email me at victor.attah@yale.edu
 
 
-
-
-Click the Sign In button under the Spotify logo. This should take you to the sign in page for Spotify. Login (or register if you don’t have an account), then press agree. Then, go to a public playlist, copy the link, and paste it into the textbox. The playlist HAS to be public, so follow [this link](https://www.androidauthority.com/make-spotify-playlist-public-3075538/) to make your playlist public. The playlist does not need to be made by you; as long as it is public, it will work. Note that the "Your Top Songs" Spotify playlist cannot be made public/viewable by others. Additionally, playlist must not include podcast episodes, as the data for podcasts isn't the same as songs. Also, please avoid playlists with local files. Spotify API isn't able to get data on these songs, since they are locally hosted on devices, and not spotify servers.
+When access is approved, click the Sign In button under the Spotify logo. This should take you to the sign in page for Spotify. Login (or register if you don’t have an account), then press agree. Then, go to a public playlist, copy the link, and paste it into the textbox. The playlist HAS to be public, so follow [this link](https://www.androidauthority.com/make-spotify-playlist-public-3075538/) to make your playlist public. The playlist does not need to be made by you; as long as it is public, it will work. Note that the "Your Top Songs" Spotify playlist cannot be made public/viewable by others. Additionally, playlist must not include podcast episodes, as the data for podcasts isn't the same as songs. Also, please avoid playlists with local files. Spotify API isn't able to get data on these songs, since they are locally hosted on devices, and not spotify servers.
 
 
 
